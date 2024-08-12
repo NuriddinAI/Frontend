@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register-Form</title>
+</head>
+<body>
+    <!-- SIMPLE FORM IN HTML FOR JUST LEARNING -->
+    <h2>Registratsiya Formasi</h2>
+    <form action="" style="background-color: darkcyan; text-align: center;">
+        <label for="ism">ISM: </label>
+        <input type="text" name="ism" placeholder="Ismingizni kiriting:" id="ism">
+        <br>
+        <br>
+        <label for="familya">FAMILYA: </label>
+        <input type="text" name="familya" placeholder="Familyangizni kiriting:" id="familya">
+        <br>
+        <br>
+        <label for="email">Emailingizni kiriting: </label>
+        <input type="text" name="email" placeholder="example@gmail.com" id="email">
+        <br>
+        <br>
+        <label for="parol">Parolingizni kiriting:</label>
+        <input type="password" name="parol" placeholder="Parol kiriting:" id="parol">
+        <br>
+        <br>
+        <label for="dob">Tug'ilgan kuningizni kiriting:</label>
+        <input type="date">
+        <br>
+        <br>
+        <label for="selection">Viloyatingizni tanlang:</label>
+        <select id="selection" name="selection">
+            <option value="option1">Surxondaryo</option>
+            <option value="option2">Toshkent</option>
+            <option value="option3">Samarqand</option>
+            <option value="option4">Farg'ona</option>
+        </select>
+        <br>
+        <br>
+        <label for="jins">Jinsingizni tanlang:</label>
+        <!-- radio ishlatganda name funksiyasiga bir xil nom berilishi kerak -->
+        <input type="radio" name="jins" id="jins" value="Erkak"> Erkak 
+        <input type="radio" name="jins" id="jins" value="Ayol"> Ayol
+        <br>
+        <br>
+        <label for="phone">Telefon raqam kiritng:</label>
+        <input type="tel" name="phone" id="phone">
+        <br>
+        <br>
+        <label for="hobbies">Qiziqishlaringizni tanlang:</label> <br>
+        <input type="checkbox" name="hobbies" id="hobbies" value="football">Futbol o'ynash
+        <input type="checkbox" name="hobbies" id="hobbies" value="tennis">Tennis o'ynash
+        <input type="checkbox" name="hobbies" id="hobbies" value="tv">Telvizor ko'rish
+        <br>
+        <br>
+        <fieldset style="background-color: bisque;">
+            <legend>Turmush holati</legend>
+            <label for="married">Oilalimisiz?</label>
+            Turmush qurgan
+            <input type="radio" name="married" id="married" value="oilali">
+            Turmush qurmagan
+            <input type="radio" name="married" id="married" value="oilasiz">
+        </fieldset>
+        <button type="submit">Yuborish</button>
+    </form>
+
+</body>
+</html>
