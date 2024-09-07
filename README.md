@@ -6,6 +6,6 @@
   - Bootstrapt
   - Javascript
 
-#### Projects:
-  1. Uzbekistan
+#### Css Projects:
+  1. 
   2. 

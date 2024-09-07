@@ -1,0 +1,154 @@
+
+.container{
+    width: 40%;
+    height: 800px;
+    background-color: #e5e5e5;
+    margin: 30px auto;
+    display: flex;
+    justify-content: left;
+}
+
+.container__left{
+    width: 35%;
+    height: 800px;
+    background-color: #001d3d;
+}
+
+.container-right{
+    width: 65%;
+}
+
+.logo_img{
+    width: 180px;
+    background-color: 001d3d;
+    border-radius: 50%;
+    padding-top: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contact{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: yellow;
+    display: block;
+    margin-top: 35px;
+    text-align: center ;
+}
+
+.gorizont{
+    width: 70%;
+}
+
+/* .contact_items{
+    padding: 10px;
+} */
+
+.phone_number{
+    font-size: 15px;
+    display: block;
+    margin-top: 20px;
+    margin-left: 60px;
+    font-weight: bold;
+    color: white;
+}
+
+.email{
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    display: block;
+    margin-top: 4px;
+    margin-left: 60px;
+}
+
+.education_item{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    display: block;
+    margin-top: 15px;
+    margin-left: 90px;
+}
+
+.education_item2 {
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    display: block;
+    margin-left: 50px;
+}
+
+.education_item3 {
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    display: block;
+    margin-left: 50px;
+}
+
+.languages{
+    color: white;
+    margin-left: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+
+.skill{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 20px;
+
+}
+
+.container-right h1{
+    display: block;
+    color: #073b4c;
+    padding-top: 15px;
+    margin-left: 70px;
+    font-size: 40px;
+}
+
+.container-right h2{
+    color: #5c677d;
+    display: block;
+    margin-left: 70px;
+    margin-top: -20px;
+}
+
+.container-right hr{
+    width: 90%;
+    text-align: center;
+    color: #073b4c;
+    font-weight: bold;
+}
+
+.profile{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    display: block;
+    margin-top: 25px;
+    margin-left: 15px;
+    color: #33658a;
+
+}
+
+.container-right p{
+    color: #5c677d;
+    text-align:justify;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.container-right ul li{
+    color: #5c677d;
+}
+
+.container-right a{
+    text-decoration: none;
+}
