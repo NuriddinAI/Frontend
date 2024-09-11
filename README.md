@@ -5,7 +5,3 @@
   - Sass
   - Bootstrapt
   - Javascript
-
-#### Css Projects:
-  1. 
-  2. 
